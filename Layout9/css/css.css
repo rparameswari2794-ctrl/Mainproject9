@@ -105,8 +105,10 @@ figure{display: flex;flex-direction: column;justify-content: center;align-items:
 .filterbox p{display: flex;gap:10px;font-size: 20px;line-height: 1;}
 .filterbox h5{margin-bottom: 30px;font-size: 22px;}
 .filter-btn{background-color: white;color: #2979FF;width:120px;height: 40px;margin-top: 120px;border: none;border-radius: 10px;font-size: 20px;font-weight: 600;}
-
+.reg-alert{position: absolute;display: none;justify-content: center;align-items: center;font-size: 24px;background-color: #2979FF;color: white;inset:0 ;}
+.sign-alert{position: absolute;display: none;justify-content: center;align-items: center;font-size: 24px;background-color: #2979FF;color: white;inset:0 ;}
 
 
 @media (max-width:730px){.navbar-nav{gap:20px}.explore-img{margin-left: 45px;} .circleone{left:575px;top:480px} .footer-card1{margin-bottom: 10px;}.signpa{bottom:580px;left:250px}.filterbox{padding: 30px;gap:30px;flex-wrap: wrap;}.div1{padding: 50px;}}
+
 @media (min-width:731px) and (max-width:1024px){.navbar-nav{gap:20px} .explore-img{margin-left: 35px;} .circleone{left:565px} .footer-card1{margin-bottom: 10px;}.signpa{bottom:580px;left:250px}.filterbox{padding: 30px;gap:50px}.sign-card1 img{height: 80%;}}
