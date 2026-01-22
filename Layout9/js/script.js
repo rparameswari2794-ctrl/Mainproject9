@@ -39,7 +39,18 @@ function openRegister(){
      document.getElementById("regModal").style.display="flex";
 }
 function openHome1(){
-    window.location.href="home1.html";
+    document.getElementById("signAlert").style.display="flex";
+    setTimeout(()=>{
+     window.location.href="home1.html";
+    },1000);
+    
+}
+function openHome(){
+    document.getElementById("regAlert").style.display="flex";
+    setTimeout(()=>{
+     window.location.href="home1.html";
+    },1000);
+    
 }
 function openSign(){
     document.getElementById("signModal").style.display="flex";
@@ -86,4 +97,5 @@ function openFilter(){
 }
 function openProductid(){
     window.location.href="producta.html";
+
 }
